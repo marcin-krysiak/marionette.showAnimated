@@ -22,26 +22,26 @@ so please include it as well or replace the animations with your own
 
 Animation configuration example:
 
-case 'flipLeft':
-  //animate out old view
-  TweenMax.to(oldView.$el, 0.5, {css: {rotationY: -90}, ease: Power2.easeIn, onComplete: function() {
-    
-    //empty the old view
-    self.el.innerHTML = ''; //from the original attachHtml method
-    
-    //reset the old view position
-    TweenMax.set(oldView.$el, {rotationY: 0});
-    
-    //prepare the new view
-    TweenMax.set(newView.$el, {rotationY: 90});
-    
-    //show the new view
-    self.el.appendChild(newView.el); //from the original attachHtml method
-    
-    //animate in the new view
-    TweenMax.to(newView.$el, 0.5, {rotationY: 0, ease: Power2.easeOut});
-    
-  }});
-break;
+  case 'flipLeft':
+    //animate out old view
+    TweenMax.to(oldView.$el, 0.5, {css: {rotationY: -90}, ease: Power2.easeIn, onComplete: function() {
+      
+      //empty the old view
+      self.el.innerHTML = ''; //from the original attachHtml method
+      
+      //reset the old view position
+      TweenMax.set(oldView.$el, {rotationY: 0});
+      
+      //prepare the new view
+      TweenMax.set(newView.$el, {rotationY: 90});
+      
+      //show the new view
+      self.el.appendChild(newView.el); //from the original attachHtml method
+      
+      //animate in the new view
+      TweenMax.to(newView.$el, 0.5, {rotationY: 0, ease: Power2.easeOut});
+      
+    }});
+  break;
     
 
