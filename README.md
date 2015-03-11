@@ -22,6 +22,7 @@ so please include it as well or replace the animations with your own. I use unde
 
 ## Animation configuration example:
 
+```
 // flipLeft animation definition
 case 'flipLeft':
 
@@ -45,3 +46,4 @@ case 'flipLeft':
     
   }});
 break;
+```
