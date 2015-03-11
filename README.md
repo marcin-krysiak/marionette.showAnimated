@@ -1,26 +1,26 @@
 # marionette.showAnimated
 Animated transition between backbone views with modified Backbone marionette.region.show()
 
-marionette.region.showAnimated allows to use custom animations for marionette.region.show() by passing the additional parameter - animationType.
-All the animation configurations code is in backbone.marionette.showAnimated.js file where any custom animation can be added. The solution is extending the original marionette.region.attachHtml() method. It doesn't affect the original marionette functionality and any existing code should be proof for any future marionette updates.
+* marionette.region.showAnimated allows to use custom animations for marionette.region.show() by passing the additional parameter - animationType.
+* All the animation configurations code is in backbone.marionette.showAnimated.js file where any custom animation can be added. The solution is extending the original marionette.region.attachHtml() method. It doesn't affect the original marionette functionality and any existing code should be proof for any future marionette updates.
 
-To use just include the backbone.marionette.showAnimated.js file in your project after the marionette library.
+* To use just include the backbone.marionette.showAnimated.js file in your project after the marionette library.
 
-Example of use:
+## Example of use:
 
-THE STANDARD WAY: yourRegion.show(newView);
-THE NEW WAY: yourRegion.showAnimated(newView, {animationType: 'slideRight'});
+* THE STANDARD WAY: yourRegion.show(newView);
+* THE NEW WAY: yourRegion.showAnimated(newView, {animationType: 'slideRight'});
 
-currently I put following animation types:
-'slideRight'
-'slideLeft'
-'flipRight'
-'flipLeft'
+# currently I put following animation types:
+* 'slideRight'
+* 'slideLeft'
+* 'flipRight'
+* 'flipLeft'
 
-For the animations I used TweenMax.js library - http://greensock.com/tweenmax 
+* For the animations I used TweenMax.js library - http://greensock.com/tweenmax 
 so please include it as well or replace the animations with your own. I use underscore.js also but you can replace it with jquery or just pure javascript.
 
-Animation configuration example:
+## Animation configuration example:
 
 // flipLeft animation definition
 case 'flipLeft':
