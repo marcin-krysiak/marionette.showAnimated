@@ -6,7 +6,7 @@ All the animation configurations code is in backbone.marionette.showAnimated.js 
 
 To use just include the backbone.marionette.showAnimated.js file in your project after the marionette library.
 
-# All feedbacks are more then welcome here: https://github.com/marcinkrysiak1979/marionette.showAnimated/issues/1
+* All feedbacks are more then welcome here: https://github.com/marcinkrysiak1979/marionette.showAnimated/issues/1
 
 # Example of use:
 
