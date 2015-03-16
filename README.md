@@ -1,6 +1,5 @@
 # marionette.showAnimated
 
-[![Join the chat at https://gitter.im/marcinkrysiak1979/marionette.showAnimated](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcinkrysiak1979/marionette.showAnimated?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Animated transition between backbone views with modified Backbone marionette.region.show()
 
 marionette.region.showAnimated allows to use custom animations for marionette.region.show() by passing the additional parameter - animationType.
@@ -9,6 +8,7 @@ All the animation configurations code is in backbone.marionette.showAnimated.js 
 To use just include the backbone.marionette.showAnimated.js file in your project after the marionette library.
 
 * All feedbacks are more then welcome here: https://github.com/marcinkrysiak1979/marionette.showAnimated/issues/1
+* or here [![Join the chat at https://gitter.im/marcinkrysiak1979/marionette.showAnimated](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcinkrysiak1979/marionette.showAnimated?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Example of use:
 
