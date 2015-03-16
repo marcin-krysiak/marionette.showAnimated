@@ -1,4 +1,6 @@
 # marionette.showAnimated
+
+[![Join the chat at https://gitter.im/marcinkrysiak1979/marionette.showAnimated](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcinkrysiak1979/marionette.showAnimated?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Animated transition between backbone views with modified Backbone marionette.region.show()
 
 marionette.region.showAnimated allows to use custom animations for marionette.region.show() by passing the additional parameter - animationType.
