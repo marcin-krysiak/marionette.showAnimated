@@ -24,10 +24,10 @@ currently I put following animation types:
 For the animations I used TweenMax.js library - http://greensock.com/tweenmax 
 so please include it as well or replace the animations with your own. I use underscore.js also but you can replace it with jquery or just pure javascript.
 
-# Animation configuration example:
+# Transition code example:
 
 ```
-// flipLeft animation definition
+// flipLeft transition
 case 'flipLeft':
 
   //animate out old view
