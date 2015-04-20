@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>marionette showAnimated example - jsFiddle demo</title>
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.8.3.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.1/backbone.marionette.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+        <script type="text/javascript" src="https://rawgithub.com/marcinkrysiak1979/marionette.showAnimated/master/backbone.marionette.showAnimated.js"></script>
+
+        <script type="text/javascript" src="example.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>A Marionette Playground</h1>
+        </header>
+
+        <button id="swapViewsButton">Swap views to test showAnimated</button>
+        <br><br>
+        <div id="container" class="container"></div>
+
+
+        <script id="view1" type="text/html">
+            <div class="view view1">
+                <div class="view-content">
+                    <h1>This is view 1</h1>
+                    <p>view 1 content</p>
+                    <input type="text" placeholder="some input field" />
+                    <button>some button</button>
+                </div>
+            </div>
+        </script>
+
+        <script id="view2" type="text/html">
+            <div class="view view2">
+                <div class="view-content">
+                    <h1>This is view 2</h1>
+                    <p>view 2 content</p>
+                </div>
+            </div>
+        </script>
+
+    </body>
+</html>
