@@ -12,6 +12,8 @@ To use just include the backbone.marionette.showAnimated.js file in your project
 
 # Example of use:
 
+You can view it here: https://rawgit.com/marcinkrysiak1979/marionette.showAnimated/master/example/example.html
+
 * THE STANDARD WAY: yourRegion.show(newView);
 * THE NEW WAY: yourRegion.showAnimated(newView, {animationType: 'slideRight'});
 
