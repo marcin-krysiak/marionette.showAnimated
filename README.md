@@ -10,6 +10,13 @@ To use just include the backbone.marionette.showAnimated.js file in your project
 * All feedbacks are more then welcome here: https://github.com/marcinkrysiak1979/marionette.showAnimated/issues/1
 * or here [![Join the chat at https://gitter.im/marcinkrysiak1979/marionette.showAnimated](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcinkrysiak1979/marionette.showAnimated?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+# Installation
+
+* GitHub:
+  clone github repo to your desktop or download zip and attach the backbone.marionette.showAnimated.js file to your project.
+* Bower: 
+  bower install marionette-show-animated
+
 # Example of use:
 
 You can view it here: https://rawgit.com/marcinkrysiak1979/marionette.showAnimated/master/example/example.html
