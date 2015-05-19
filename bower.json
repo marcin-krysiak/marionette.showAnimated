@@ -1,9 +1,9 @@
 {
-  "name": "marionette.showAnimated",
-  "version": "1.0.0",
+  "name": "marionette-show-animated",
+  "version": "1.0.1",
   "homepage": "https://github.com/marcinkrysiak1979/marionette.showAnimated",
   "authors": [
-    "marcinkrysiak <marcin.krysiak@gmail.com>"
+    "Marcin Krysiak", "Marcin Krysiak <marcin.krysiak@gmail.com>"
   ],
   "description": "Animated transition between backbone views with modified Backbone marionette.region.show()",
   "main": "backbone.marionette.showAnimated.js",
