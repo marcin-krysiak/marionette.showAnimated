@@ -19,7 +19,7 @@ $( function() {
     var view1 = new View1();
     var view2 = new View2();
 
-    App.mainRegion.show(view1);
+    App.mainRegion.showAnimated(view1, { preventDestroy: true, animationType: 'flipLeft' });
 
     var counter = 0;
     var view = view1;
