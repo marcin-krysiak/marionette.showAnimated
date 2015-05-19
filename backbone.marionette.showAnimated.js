@@ -11,6 +11,8 @@ _.extend(Marionette.Region.prototype, {
         var self = this,
             oldView = this.currentView,
             newView = view;
+            
+        if ( !oldView || !oldView.$el ) this.animationType = 'default';    
 
         switch(this.animationType) {
 
